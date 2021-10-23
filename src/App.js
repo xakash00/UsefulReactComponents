@@ -5,7 +5,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import NewList from "./components/NewList"
+import Focus from "./components/Focus";
 const App = () => {
   const [mode, setMode] = useState("light");
   const [alert, setAlert] = useState(null);
@@ -36,7 +36,7 @@ const App = () => {
     <>
       <div>
         <NavBar mode={mode} toggle={toggle} />
-        <NewList/>
+        <Focus />
       </div>
       <ToastContainer
         position="bottom-right"

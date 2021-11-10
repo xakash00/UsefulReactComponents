@@ -4,15 +4,15 @@ const Focus = () => {
   const [name, setName] = useState("");
   const inputRef = useRef("");
   const prevName = useRef("");
-  const renderCount = useRef(1)
+  const renderCount = useRef(1);
 
   const focus = () => {
     inputRef.current.focus();
   };
 
-useEffect(() => {
-   renderCount.current=renderCount.current+1
-})
+  useEffect(() => {
+    renderCount.current = renderCount.current + 1;
+  });
 
   useEffect(() => {
     prevName.current = name;
@@ -27,7 +27,9 @@ useEffect(() => {
         name="name"
         onChange={(e) => setName(e.target.value)}
       />
-      <p>Your name is {name} but perviously it was {prevName.current}</p>
+      <p>
+        Your name is {name} but perviously it was {prevName.current}
+      </p>
       <p>{renderCount.current}</p>
       <button onClick={focus}>Focus</button>
     </div>

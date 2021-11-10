@@ -1,0 +1,141 @@
+
+.footer {
+    padding-top: 6.5rem;
+    padding-left: 4.375rem;
+    margin-top: 5.9375rem;
+  }
+  .Footer_list {
+    list-style-type: none;
+    text-align: left;
+    margin-left: -2rem;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .Footer_content {
+    font-size: 1.25rem;
+  }
+  .Footer_subhead {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .Footer_text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .Footer_hr {
+    margin-top: 5rem;
+  }
+  .Footer_btn {
+    height: 3.25rem;
+    width: 14.0625rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: #f77223;
+  }
+  .Footer_btn:hover {
+    background-color: #f77223;
+  }
+  .Footer_subscribe {
+    height: 5rem;
+    width: 40.75rem;
+    border: 1.5px solid #d7e4f5;
+    border-radius: 0.5rem;
+  }
+  .Footer_inp {
+    height: 3.25rem;
+    width: 31.5rem;
+    outline: none;
+    border: none;
+  }
+  .Footer_logo {
+    width: 1.5625rem;
+    height: 1.5625rem;
+    margin-right: 2.553125rem;
+    margin-top: 1vh;
+  }
+  .Footer_brandlogo {
+    height: 6.125rem;
+    width: 15.375rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+  }
+  .Footer_logoGrp {
+    float: left;
+  }
+  .Footer_card {
+    width: 40.75rem;
+    border-radius: 0.5rem;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .footer {
+      padding-left: 0.9375rem;
+    }
+    .Footer_subscribe {
+      width: 17.5rem;
+    }
+    .Footer_inp {
+      width: 14.5rem;
+      margin-left: -4vw;
+    }
+    .Footer_list {
+      text-align: center;
+    }
+    .Footer_subhead {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+    .Footer_card {
+      width: 21rem;
+    }
+    .Footer_brandlogo {
+      margin-left: 3rem;
+    }
+    .Footer_logoGrp {
+      margin-left: 3rem;
+    }
+    .Footer_btn {
+      width: 10rem;
+      font-size: 2vh;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .Footer_card {
+      width: 25rem;
+      margin-left: 20vw;
+    }
+    .Footer_inp {
+      margin-left: 0;
+    }
+    .Footer_brandlogo {
+      margin-left: 30vw;
+    }
+    .Footer_logoGrp {
+      margin-left: 30vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .Footer_brandlogo {
+      margin-left: -2vw;
+    }
+    .Footer_logoGrp {
+      margin-left: 0;
+    }
+    .Footer_card {
+      width: 23rem;
+      margin-left: 0;
+    }
+    .Footer_inp {
+      width: 20vw;
+    }
+    .Footer_btn {
+      width: 12vw;
+    }
+  }
+  

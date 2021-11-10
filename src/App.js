@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "./App.css";
-import NavBar from "./components/NavBar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Focus from "./components/Focus";
+import NewList from "./components/ApiComp/NewList"
+import Navbar from "./components/responsive-sidebar/components/Navbar";
 const App = () => {
   const [mode, setMode] = useState("light");
   const [alert, setAlert] = useState(null);
@@ -35,8 +35,7 @@ const App = () => {
   return (
     <>
       <div>
-        <NavBar mode={mode} toggle={toggle} />
-        <Focus />
+      <Navbar/>
       </div>
       <ToastContainer
         position="bottom-right"
